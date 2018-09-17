@@ -15,7 +15,7 @@ import com.example.ekta.service.IssueService;
 import com.example.ekta.service.SugesstionService;
 
 @RestController
-//@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "http://localhost:2500")
 //@CrossOrigin(origins = "http://localhost:8080")
 public class IssueController {
 	@Autowired
