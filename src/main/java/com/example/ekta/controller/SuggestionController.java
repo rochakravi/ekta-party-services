@@ -15,7 +15,7 @@ import com.example.ekta.service.SugesstionService;
 
 @RestController
 //@CrossOrigin(origins = "http://localhost:4200")
-//@CrossOrigin(origins = "http://localhost:8080")
+@CrossOrigin(origins = "https://jantaekta-party.firebaseapp.com")
 public class SuggestionController {
 	
 	@Autowired
