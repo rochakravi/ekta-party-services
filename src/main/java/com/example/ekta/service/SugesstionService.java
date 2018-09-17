@@ -27,4 +27,10 @@ public class SugesstionService {
 		return obj ;
 	}
 
+	public void deleteSuggestion(int id) {
+		// TODO Auto-generated method stub
+		suggestionRepo.deleteById(id);
+	}
+	
+
 }
