@@ -16,8 +16,8 @@ public class Suggestion {
 	@Column(name="SUGGESTION_ID")
 	private int suggsestion_id ;
 	
-	@Column(name="SUGGESTION_SUBJECT")
-	private String suggsestion_subject ;
+// 	@Column(name="SUGGESTION_SUBJECT")
+// 	private String suggsestion_subject ;
 	
 	@Column(name="SUGGESTION_DESCRIPTION")
 	private String suggsestion_description ;
@@ -68,11 +68,10 @@ public class Suggestion {
 		this.social_pic = social_pic;
 	}
 
-	public Suggestion(int suggsestion_id, String suggsestion_subject, String suggsestion_description,
+	public Suggestion(int suggsestion_id, String suggsestion_description,
 			String social_name, String social_pic) {
 		super();
-		this.suggsestion_id = suggsestion_id;
-		this.suggsestion_subject = suggsestion_subject;
+		this.suggsestion_id = suggsestion_id;		
 		this.suggsestion_description = suggsestion_description;
 		this.social_name = social_name;
 		this.social_pic = social_pic;
