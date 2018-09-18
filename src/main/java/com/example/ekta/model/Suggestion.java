@@ -36,13 +36,13 @@ public class Suggestion {
 		this.suggsestion_id = suggsestion_id;
 	}
 
-	public String getSuggsestion_subject() {
-		return suggsestion_subject;
-	}
+// 	public String getSuggsestion_subject() {
+// 		return suggsestion_subject;
+// 	}
 
-	public void setSuggsestion_subject(String suggsestion_subject) {
-		this.suggsestion_subject = suggsestion_subject;
-	}
+// 	public void setSuggsestion_subject(String suggsestion_subject) {
+// 		this.suggsestion_subject = suggsestion_subject;
+// 	}
 
 	public String getSuggsestion_description() {
 		return suggsestion_description;
